@@ -1,0 +1,76 @@
+body{
+    background: #fff;
+}
+.container{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #5A6275;
+    max-width: 600px;
+}
+.one{
+    display: block;
+    border: 1px solid #5A6275;
+    margin: 40px 60px 20px 20px;
+    padding: 20px;
+}
+ul.countries{
+    display:flex;
+     list-style: none;
+    justify-content:space-between;
+    margin: 0;
+    padding: 10px;
+}
+.countries li{
+    padding: 2px;
+}
+.two{
+    display: flex;
+    margin: 10px 100px 10px 5px;
+    border: 1px solid #5A6275;
+    padding: 20px;
+    justify-content:flex-end ;
+}
+img{
+    width: 20px;
+    height: 20px;
+    color: #5A6275;
+    
+}
+.three{
+    display: flex;
+    padding:10px;
+}
+main , section{
+    padding: 10px;
+}
+.four{
+    display: block;
+    border: 1px solid #5A6275;
+    margin: 20px;
+    padding: 20px;
+
+}
+.outside{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        margin: 0;
+        padding: 10px;
+        color: #ff7b52;
+}
+.inside{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        margin: 0;
+        padding: 10px;
+        border: 1px solid #5A6275;
+        min-height: 20px;
+        
+}
+.emoji{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    
+}
